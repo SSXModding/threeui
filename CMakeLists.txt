@@ -25,3 +25,7 @@ add_subdirectory(third_party)
 # components
 add_subdirectory(src/threeui)
 
+if(PROJECT_IS_TOP_LEVEL)
+    message(STATUS "Building ThreeUI Editor")
+endif()
+

@@ -20,6 +20,8 @@ extern "C" {
     /// Call when done using the threeui library.
     void threeuiFini();
 
+    uint32_t threeuiGetHashValue32(const char* pszStr);
+
 #ifdef __cplusplus
 }
 #endif
